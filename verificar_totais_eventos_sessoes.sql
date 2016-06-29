@@ -1,1 +1,0 @@
-select event,count(0) from v$session where username is not null and status='ACTIVE' group by event;
