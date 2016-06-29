@@ -1,0 +1,1 @@
+SELECT 'alter system kill session ' || '''' ||sid||','||serial#||''''||';' FROM V$SESSION where lower(program) like '%port%'

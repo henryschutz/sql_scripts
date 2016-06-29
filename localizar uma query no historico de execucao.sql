@@ -1,0 +1,1 @@
+select * from v$sql where sql_id = '2ct1sab0t2pfu'
